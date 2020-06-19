@@ -23,7 +23,7 @@ a:hover   {color: var(--accent-color);}
 a:active  {color: var(--accent-color);} 
 
 /* Classes */
-.menudiv {font-family: 'Raleway'; font-size: 1vw; color: var(--accent-color-alt); text-align: center; display: inline-block; padding-left: 12.5%;}
+.menudiv {font-family: 'Raleway'; font-size: 2.5vh; color: var(--accent-color-alt); text-align: center; display: inline-block;}
 .hstyle  {border-top: 3px dashed var(--accent-color); color: var(--bg-color);}
 
 a, u {
@@ -38,6 +38,7 @@ a, u {
       var h = today.getHours();
       var m = today.getMinutes();
       var s = today.getSeconds();
+      h = checkTime(h);
       m = checkTime(m);
       s = checkTime(s);
       document.getElementById('hour').innerHTML = h;
@@ -57,7 +58,7 @@ a, u {
 
 <!-- Something like a header but not really --> 
 <div style="line-height: 0px; text-align: right;">
-<a href="startpage.html"><img src="./startpage/github.png" alt="github"></a>
+<a href="https://github.com/KazaKazan/startpage"><img src="./startpage/github.png" alt="github"></a>
 </div>
 
 <!-- Clock Tiem  --> 
@@ -69,48 +70,32 @@ a, u {
 
 <div style="margin-left: 15%; margin-right: 15%;">,
 
-<div>
+<div style="text-align: center;">
 
   <hr class="hstyle">
 
-    <div class="menudiv" style="padding-left: 0%;">
-    <p>Category</p>
-    <p style="color: var(--accent-color);">---------------</p>
-    <p><a href="">Text</a></p>
-    <p><a href="">Text</a></p>
-    <p><a href="">Text</a></p>
+    <div class="menudiv">
+    <p>Computer Stuff</p>
+    <p style="color: var(--accent-color); line-height: 0px;">---------------</p>
+    <p><a href="https://github.com/">GitHub</a></p>
+    <p><a href="https://wiki.archlinux.org/">ArchWiki</a></p>
+    <p><a href="https://docs.godotengine.org/en/stable/">Godot Docs</a></p>
+    </div>
+
+    <div class="menudiv" style="margin-left: 10vw; margin-right: 10vw;">
+    <p>Personal</p>
+    <p style="color: var(--accent-color); line-height: 0px;">---------------</p>
+    <p><a href="https://kazakaza.xyz">KazaKaza</a></p>
+    <p><a href="https://www.linkedin.com/">LinkedIn</a></p>
+    <p><a href="https://www.pixiv.net/en/">Pixiv</a></p>
     </div>
 
     <div class="menudiv">
-    <p>Category</p>
-    <p style="color: var(--accent-color);">---------------</p>
-    <p><a href="">Text</a></p>
-    <p><a href="">Text</a></p>
-    <p><a href="">Text</a></p>
-    </div>
-
-    <div class="menudiv">
-    <p>Category</p>
-    <p style="color: var(--accent-color);">---------------</p>
-    <p><a href="">Text</a></p>
-    <p><a href="">Text</a></p>
-    <p><a href="">Text</a></p>
-    </div>
-
-    <div class="menudiv">
-    <p>Category</p>
-    <p style="color: var(--accent-color);">---------------</p>
-    <p><a href="">Text</a></p>
-    <p><a href="">Text</a></p>
-    <p><a href="">Text</a></p>
-    </div>
-
-    <div class="menudiv">
-    <p>Category</p>
-    <p style="color: var(--accent-color);">---------------</p>
-    <p><a href="">Text</a></p>
-    <p><a href="">Text</a></p>
-    <p><a href="">Text</a></p>
+    <p>Entertainment</p>
+    <p style="color: var(--accent-color); line-height: 0px;">---------------</p>
+    <p><a href="https://www.youtube.com/">Youtube</a></p>
+    <p><a href="https://www.reddit.com/">Reddit</a></p>
+    <p><a href="https://boards.4chan.org/wg/">/wg/</a></p>
     </div>
 
   <hr class="hstyle">

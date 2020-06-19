@@ -1,22 +1,123 @@
 <!DOCTYPE html>
 <html>
+<head>
+
+<!-- Font links --> 
+
+<link href='https://fonts.googleapis.com/css?family=Space+Mono' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
 
 <style>
 
-h1 {text-align: center;}
-p {text-align: center;}
+/* Root Stuff */
+:root{
+--fg-color: #ffffff;
+--bg-color: #0e0e0e;
+--accent-color: #d87de3;
+--accent-color-alt: #7de3e0;
+}
+
+/* Link Colors */
+a:link    {color: var(--accent-color-alt);}
+a:visited {color: var(--accent-color-alt);}
+a:hover   {color: var(--accent-color);}
+a:active  {color: var(--accent-color);} 
+
+/* Classes */
+.menudiv {font-family: 'Raleway'; font-size: 18px; color: var(--accent-color-alt); text-align: center; display: inline-block; margin-left: 14%;}
+.hstyle  {width: 70%; border-top: 3px dashed var(--accent-color); color: var(--bg-color);}
+
+a, u {
+    text-decoration: none;
+}
 
 </style>
 
+<script>
+    function startTime() {
+      var today = new Date();
+      var h = today.getHours();
+      var m = today.getMinutes();
+      var s = today.getSeconds();
+      m = checkTime(m);
+      s = checkTime(s);
+      document.getElementById('hour').innerHTML = h;
+      document.getElementById('minute').innerHTML = m;
+      document.getElementById('second').innerHTML = s;
+      var t = setTimeout(startTime, 500);
+    }
+    function checkTime(i) {
+      if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+      return i;
+    }
+</script>
 
-<body>
+</head>
 
-<h1>KazaKaza</h1>
-<p>A personal website</p>
+<body style="background-color: var(--bg-color);" onload="startTime()">
 
-<hr>
+<!-- Something like a header but not really --> 
+<div style="line-height: 0px; text-align: right;">
+<a href="startpage.html"><img src="./startpage/github.png" alt="github"></a>
+</div>
 
-<p>Placeholder</p>
+<!-- Clock Tiem  --> 
+<div style="line-height: 0px; font-family: 'Space Mono'; font-size: 20px;">
+<p style="text-align: center; color: var(--accent-color-alt); font-size: 8em;"><span id="hour"></span><span id="minute" style="color: var(--accent-color);"></span><span id="second"></span></p>
+</div>
+
+<!-- Links and Whatnot  --> 
+<hr class="hstyle">
+
+<div style="margin-left: 15%; margin-right: 15%;">,
+
+<div style="width: 100%;">
+
+    <div class="menudiv" style="margin-left: 0%;">
+    <p>Category</p>
+    <p style="color: var(--accent-color); line-height: 0em;">---------------</p>
+    <p><a href="">Text</a></p>
+    <p><a href="">Text</a></p>
+    <p><a href="">Text</a></p>
+    </div>
+
+    <div class="menudiv">
+    <p>Category</p>
+    <p style="color: var(--accent-color); line-height: 0em;">---------------</p>
+    <p><a href="">Text</a></p>
+    <p><a href="">Text</a></p>
+    <p><a href="">Text</a></p>
+    </div>
+
+    <div class="menudiv">
+    <p>Category</p>
+    <p style="color: var(--accent-color); line-height: 0em;">---------------</p>
+    <p><a href="">Text</a></p>
+    <p><a href="">Text</a></p>
+    <p><a href="">Text</a></p>
+    </div>
+
+    <div class="menudiv">
+    <p>Category</p>
+    <p style="color: var(--accent-color); line-height: 0em;">---------------</p>
+    <p><a href="">Text</a></p>
+    <p><a href="">Text</a></p>
+    <p><a href="">Text</a></p>
+    </div>
+
+    <div class="menudiv">
+    <p>Category</p>
+    <p style="color: var(--accent-color); line-height: 0em;">---------------</p>
+    <p><a href="">Text</a></p>
+    <p><a href="">Text</a></p>
+    <p><a href="">Text</a></p>
+    </div>
+
+</div>
+
+</div>
+
+<hr class="hstyle">
 
 </body>
 </html>

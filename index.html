@@ -1,7 +1,58 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<head>
+
+<!-- Font links --> 
+
+<link href='https://fonts.googleapis.com/css?family=Cinzel' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+
+<style>
+
+/* Root Stuff */
+:root{
+--fg-color: #353535;
+--bg-color: #ffffff;
+--accent-color: #cc9d57;
+
+}
+/* Link Colors */
+a:link    {color: var(--fg-color);}
+a:visited {color: var(--fg-color);}
+a:hover   {color: var(--accent-color);}
+a:active  {color: var(--accent-color);} 
+
+/* Classes */
+.hcenter {text-align: center; font-family: "Cinzel"; font-size: 45px; line-height: 0.5em; color: var(--fg-color);}
+.pstyle  {font-family: "Raleway"; font-size: 20px; color: var(--fg-color);}
+.dcenter {text-align: center; color: var(--fg-color);}
+.hstyle  {width: 70%; color: var(--fg-color);}
+
+</style>
+</head>
+
+<body style="background-color: var(--bg-color);">
+
+<!-- Something like a header here --> 
+<h1 class = "hcenter">KazaKaza</h1>
+<p  class = "pstyle" style="line-height: 0em; text-align: center;">A personal dumpsite</p>
+
+<hr class = "hstyle" style="width: 50%;">
+
+<!-- Navigation links here --> 
+<div class = "dcenter" style="line-height: 2em; font-family: 'Raleway';">
+<a href="dotfiles.html">Dotfiles</a>
+<a href="startpage.html">Startpage</a>
+</div>
+
+<hr  class = "hstyle">
+
+<!-- Homepage text here --> 
+<div class = "dcenter" style="margin-left: 15%; margin-right: 15%;">
+<p   class = "pstyle" style="text-align: justify;">Hello and welcome to my website.</p>
+<p   class = "pstyle" style="text-align: justify;">Here you can find links to the dotfiles for my arch linux rice, my custom startpage and soon more. I plan to use this site as a personal dump of sorts,
+so not everything here will be of good quality. In fact, most things here will probably will not be useful to many people but still, feel free to do anything you want with whatever you find.</p>
+</div>
+
 </body>
 </html>

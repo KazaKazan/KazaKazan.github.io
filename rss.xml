@@ -1,0 +1,27 @@
+<!-- 
+ <?xml-stylesheet type="text/css" href="rss.css" ?> 
+-->
+<rss version="2.0">
+<channel>
+<title>KazaKaza Blog</title>
+<description>
+Updates from KazaKaza. I will be updating this alongside the blog.
+</description>
+<language>en-us</language>
+<link>https://kazakaza.xyz/rss.xml</link>
+<atom:link href="https://kazakaza.xyz/rss.xml" rel="self" type="application/rss+xml"/>
+<!-- LB -->
+<item>
+<title>First Post!</title>
+<guid>
+https://kazakaza.xyz/29062020.html
+</guid>
+<pubDate>Mon, 29 Jun 2020</pubDate>
+<description>
+<p>Alright, here goes my first ever blog post.</p>
+<p>For now, I am editing everything manually, including the rss xml. That's a huge pain so I am looking into solutions. I like the simplicity of this but on the other hand, it's really inconvenient.</p>
+<p>Anyway, I will cut it short for the first post, this is about all I wanted to say.</p>
+</description>
+</item>
+</channel>
+</rss>

@@ -2,7 +2,28 @@
  <?xml-stylesheet type="text/css" href="rss.css" ?> 
 -->
 <rss version="2.0">
+
 <channel>
+
+<title>KazaKaza Blog</title>
+<description>
+Updates from KazaKaza. I will be updating this alongside the blog.
+</description>
+<language>en-us</language>
+<link>https://kazakaza.xyz/rss.xml</link>
+<!-- LB -->
+<item>
+<title>I Made A Name List!</title>
+<guid>
+https://kazakaza.xyz/17072020.html
+</guid>
+<pubDate>Fri, 17 July 2020</pubDate>
+<description>
+<p>My job routinely requires me to name certain things (ie. ships for simulation) and thus I made a list of 100 names in 10 categories to pull from. The list includes the names or surnames of real and fictional people (and a dog, and two objects). I have uploaded the file to the website, you can find it under the 'files' page, feel free to use it for whatever purpose. </p>
+<p>I may grow the list further in the future, in which case the file will be updated. If it's a particularly big update, I might make another blog post about it as well.</p>
+</description>
+</item>
+
 <title>KazaKaza Blog</title>
 <description>
 Updates from KazaKaza. I will be updating this alongside the blog.
@@ -22,5 +43,7 @@ https://kazakaza.xyz/29062020.html
 <p>Anyway, I will cut it short for the first post, this is about all I wanted to say.</p>
 </description>
 </item>
+
 </channel>
+
 </rss>

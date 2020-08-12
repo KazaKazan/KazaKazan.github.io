@@ -1,4 +1,13 @@
-#WRITERS
+# ====NAMELIST====
+# Version: 2.0
+# Word Count:170
+# =====FORMAT=====
+# #CATEGORY
+# ##SUBCATEGORY
+# Name
+
+#CULTURE
+##WRITERS
 Herbert
 Homer
 Kafka
@@ -9,51 +18,8 @@ Twain
 Vonnegut
 Wells
 Wilde
-#SPACE RACE
-Aldrin
-Apollo
-Armstrong
-Collins
-Gagarin
-Komarov
-Laika
-Lovell
-Savitskaya
-Vostok
-#GREEK PHILOSOPHERS
-Anaxagoras
-Aristotle
-Democritus
-Diogenes
-Empedocles
-Epicurus
-Plato
-Pythagoras
-Socrates
-Thales
-#EXPLORERS
-Cao
-Columbus
-Dias
-Erikson
-Gama
-Magellan
-Ojeda
-Polo
-Vespucci
-Zheng He
-#EGYPTIAN GODS
-Amun
-Anuket
-Bastet
-Hathor
-Horus
-Neper
-Osiris
-Sobek
-Sekhmeth
-Thoth
-#COMPOSERS
+
+##COMPOSERS
 Bach
 Beethoven
 Saint-Saens
@@ -64,7 +30,8 @@ Satie
 Tartini
 Tchaikovsky
 Vivaldi
-#PAINTERS
+
+##PAINTERS
 Bernard
 Braque
 Dix
@@ -75,7 +42,45 @@ Picasso
 Rothko
 Seurat
 Van Gogh
-#SCIENTISTS & ENGINEERS
+
+##DIRECTORS
+Bergman
+Eggers
+Hitchcock
+Kubrick
+Kurosawa
+Leone
+Miyazaki
+Scorsese
+Spielberg
+Wyler
+
+#HISTORY
+##SPACE RACE
+Aldrin
+Apollo
+Armstrong
+Collins
+Gagarin
+Komarov
+Laika
+Lovell
+Savitskaya
+Vostok
+
+##EXPLORERS
+Cao
+Columbus
+Dias
+Erikson
+Gama
+Magellan
+Ojeda
+Polo
+Vespucci
+Zheng He
+
+##SCIENTISTS & ENGINEERS
 Archimedes
 Avicenna
 Edison
@@ -86,7 +91,8 @@ Kahn
 Oppenheimer
 Pavlov
 Planck
-#GENERALS
+
+##GENERALS
 Alexander
 Attila
 Bolivar
@@ -97,7 +103,81 @@ Konev
 Mehmed
 Patton
 Saladin
-#FICTIONAL CHARACTERS
+
+##WESTERN PHILOSOPHERS
+Nietzsche
+Aristotle
+Cicero
+Diogenes
+Sina
+Erasmus
+Plato
+Pythagoras
+Socrates
+Khayyam
+
+#MYTHOLOGY
+##EGYPTIAN
+Amun
+Anuket
+Bastet
+Hathor
+Horus
+Neper
+Osiris
+Sobek
+Sekhmeth
+Thoth
+
+##CELTIC
+Abarta
+Aine
+Balor
+Brigid
+Cernunnos
+Clota
+Matunus
+Morrigan
+Tamesis
+Taranis 
+
+##GREEK
+Aphrodite
+Ares
+Artemis
+Athena
+Demeter
+Dionysus
+Hades
+Hermes
+Hestia
+
+##HINDU
+Brahma
+Bhumi
+Devi
+Ganesha
+Parvati
+Shiva
+Kali
+Kartikeya
+Vishnu
+Yamuna
+
+##TURKIC
+Alaz
+Baianai
+Burkut
+Erlik
+Mergen
+Jaiyk
+Kayra
+Kubai
+Ulgan
+Umay
+
+#POP CULTURE
+##FICTIONAL CHARACTERS
 Blondie
 Hercules
 Holmes
@@ -108,3 +188,28 @@ Rucks
 Spock
 Solo
 Waldo
+
+#MISC
+##CALL SIGNS
+Alpha
+Bravo
+Charlie
+Delta
+Echo
+Foxtrot
+Golf
+Hotel
+India
+Juliet
+
+##COLORS
+Black
+Blue
+Cyan
+Green
+Orange
+Pink
+Purple
+Red
+Yellow
+White

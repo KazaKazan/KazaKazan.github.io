@@ -13,6 +13,27 @@ Updates from KazaKaza. I will be updating this alongside the blog.
 <link>https://kazakaza.xyz/rss.xml</link>
 <!-- LB -->
 <item>
+<title>Name List Update</title>
+<guid>
+https://kazakaza.xyz/12082020.html
+</guid>
+<pubDate>Wed, 12 August 2020</pubDate>
+<description>
+<p>Well, that didn't last long.</p>
+<p>As I've stated before the namelist was something I was creating mainly for work, as I need to name many objects in simulator environments daily. This naming process was more or less standardized lately, and now I don't really need a namelist.</p>
+<p>Thus, I will be pushing a final update to the list which brings it up to 170 individual names in 17 categories with 10 names in each category. I've also updated the text formatting within the file for readibility.</p>
+<p>As always, feel free to download, use and modify the file in any way you want.</p>
+</description>
+</item>
+
+<title>KazaKaza Blog</title>
+<description>
+Updates from KazaKaza. I will be updating this alongside the blog.
+</description>
+<language>en-us</language>
+<link>https://kazakaza.xyz/rss.xml</link>
+<!-- LB -->
+<item>
 <title>I Made A Name List!</title>
 <guid>
 https://kazakaza.xyz/17072020.html
